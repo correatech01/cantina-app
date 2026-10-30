@@ -1,11 +1,13 @@
 <script setup>
+import{ref} from 'vue';
 import NavBar from './components/NavBar.vue';
+const totalitens = ref(0)
 </script>
 
 <template>
   <div class="min-h-screen bg-gray-100 transition-colors dark:bg-gray-900">
     <!-- Barra de navegação -->
-    <NavBar></NavBar>
+    <NavBar :total-itens="totalitens"></NavBar>
 
     <main class="mx-auto max-w-6xl px-4 py-6">
       <h1 class="mb-1 text-3xl font-bold text-gray-800 dark:text-gray-100">Cardápio</h1>
