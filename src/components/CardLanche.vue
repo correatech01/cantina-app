@@ -3,6 +3,8 @@ defineProps({
   lanche: { type:Object, required: true},
 })
 
+defineEmits(['adicionar'])
+
 </script>
 
 <template>

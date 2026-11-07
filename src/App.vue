@@ -33,7 +33,7 @@ const totalitens = ref(0)
         v-for="lanche in lanches"
         :key="lanche.id"
         :lanche="lanche"
-        
+        @adicionar="totalitens++"
         ></CardLanche>
       </div>
     </main>
