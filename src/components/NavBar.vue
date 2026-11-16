@@ -2,20 +2,20 @@
 import { ref } from 'vue'
 
 defineProps({
-  totalitens: { type:Number, default: 0},
+  totalItens: { type: Number, default: 0 },
 })
 
 const escuro = ref(false)
 
-function alterarTema() {
+function alternarTema() {
   escuro.value = !escuro.value
-  document.documentElement.classList.toggle('dark',
+  document.documentElement.classList.toggle('dark', 
     escuro.value)
 }
 </script>
 
 <template>
-   <header class="sticky top-0 z-10 bg-escola-600 text-white shadow-md">
+    <header class="sticky top-0 z-10 bg-escola-600 text-white shadow-md">
       <nav class="mx-auto flex max-w-6xl items-center justify-between px-4 py-3">
         <a href="#" class="flex items-center gap-2 text-xl font-bold">
           <span>🍔</span> Cantina da Escola
@@ -26,16 +26,20 @@ function alterarTema() {
           <a href="#" class="rounded-lg px-3 py-2 transition-colors hover:bg-escola-700">Meus Pedidos</a>
           <a href="#" class="relative rounded-lg px-3 py-2 transition-colors hover:bg-escola-700">
             🛒 Carrinho
-            <span v-if="totalitens > 0" class="absolute -top-1 -right-1 flex h-6 w-6 items-center justify-center rounded-full bg-yellow-400 text-xs font-bold text-gray-900">
-              {{ totalitens }}
-            </span>
+          <span v-if="totalItens > 0" class="absolute -top-1 -right-1 flex h-6 
+            w-6 items-center justify-center rounded-full
+            bg-yellow-400 text-xs font-bold
+            text-gray-900"
+          >
+            {{ totalItens }}
+          </span>
           </a>
           <button
-          @click="alterarTema"
+            @click="alternarTema"
             class="rounded-lg px-2 py-2 transition-colors hover:bg-escola-700"
             :title="escuro ? 'Modo claro' : 'Modo escuro'"
           >
-            {{escuro ? '☀️': '🌙'}}
+            {{ escuro ? '☀️' : '🌙' }}
           </button>
         </div>
       </nav>
