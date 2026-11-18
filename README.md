@@ -1,38 +1,68 @@
-# cantina-app
+# 🍽️ Cantina App
 
-This template should help get you started developing with Vue 3 in Vite.
+Aplicação web para gerenciamento de cantina, desenvolvida utilizando Vue 3 e JavaScript.
 
-## Recommended IDE Setup
+O projeto tem como objetivo aplicar conhecimentos de desenvolvimento frontend, organização de componentes e construção de interfaces para sistemas de gerenciamento.
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## 🚧 Status do projeto
 
-## Recommended Browser Setup
+Em desenvolvimento.
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
+## 💻 Tecnologias utilizadas
 
-## Customize configuration
+- Vue.js 3
+- JavaScript
+- Vite
+- HTML5
+- CSS3
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+## ⚙️ Como executar o projeto
 
-## Project Setup
+### Pré-requisitos
 
-```sh
+- Node.js instalado
+- npm instalado
+- Git instalado
+
+### Instalação
+
+1. Clone o repositório:
+
+```bash
+git clone https://github.com/correatech01/cantina-app.git
+```
+
+2. Entre na pasta:
+
+```bash
+cd cantina-app
+```
+
+3. Instale as dependências:
+
+```bash
 npm install
 ```
 
-### Compile and Hot-Reload for Development
+4. Execute o projeto:
 
-```sh
+```bash
 npm run dev
 ```
 
-### Compile and Minify for Production
+5. Acesse o endereço local apresentado no terminal.
 
-```sh
-npm run build
-```
+## 📚 Objetivo acadêmico
+
+Projeto desenvolvido para aprimorar conhecimentos em desenvolvimento web, JavaScript e Vue.js, aplicando conceitos estudados durante a formação em Desenvolvimento de Sistemas.
+
+## 👨‍💻 Desenvolvedor
+
+**Leonardo Correa**
+
+- GitHub: [@correatech01](https://github.com/correatech01)
+- LinkedIn: [Leonardo Correa](https://www.linkedin.com/in/leonardo-correa01/)
+
+---
+
+Projeto desenvolvido para fins educacionais e evolução profissional.
