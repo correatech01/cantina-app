@@ -1,14 +1,16 @@
 # 🍽️ Cantina App
 
-Aplicação web para gerenciamento de cantina, desenvolvida utilizando Vue 3 e JavaScript.
+Aplicação web para gerenciamento de vendas de uma cantina, desenvolvida com Vue.js 3 e JavaScript.
 
-O projeto tem como objetivo aplicar conhecimentos de desenvolvimento frontend, organização de componentes e construção de interfaces para sistemas de gerenciamento.
+O projeto busca desenvolver uma interface intuitiva e funcional, aplicando conceitos de desenvolvimento frontend e interação com o usuário.
 
-## 🚧 Status do projeto
+## 🚀 Funcionalidades
 
-Em desenvolvimento.
+- 🛒 Tela de vendas para interação com produtos.
+- ➕ Adição de produtos ao carrinho.
+- 🌙 Modo escuro (Dark Mode).
 
-## 💻 Tecnologias utilizadas
+## 🛠️ Tecnologias utilizadas
 
 - Vue.js 3
 - JavaScript
@@ -16,53 +18,45 @@ Em desenvolvimento.
 - HTML5
 - CSS3
 
-## ⚙️ Como executar o projeto
+## 🚧 Status do projeto
 
-### Pré-requisitos
+Em desenvolvimento.
 
-- Node.js instalado
-- npm instalado
-- Git instalado
+Novas funcionalidades e melhorias estão sendo implementadas continuamente.
 
-### Instalação
+## ⚙️ Como executar
 
-1. Clone o repositório:
+**1. Clone o repositório:**
 
 ```bash
 git clone https://github.com/correatech01/cantina-app.git
 ```
 
-2. Entre na pasta:
+**2. Acesse a pasta:**
 
 ```bash
 cd cantina-app
 ```
 
-3. Instale as dependências:
+**3. Instale as dependências:**
 
 ```bash
 npm install
 ```
 
-4. Execute o projeto:
+**4. Execute a aplicação:**
 
 ```bash
 npm run dev
 ```
 
-5. Acesse o endereço local apresentado no terminal.
-
-## 📚 Objetivo acadêmico
-
-Projeto desenvolvido para aprimorar conhecimentos em desenvolvimento web, JavaScript e Vue.js, aplicando conceitos estudados durante a formação em Desenvolvimento de Sistemas.
-
 ## 👨‍💻 Desenvolvedor
 
 **Leonardo Correa**
 
-- GitHub: [@correatech01](https://github.com/correatech01)
-- LinkedIn: [Leonardo Correa](https://www.linkedin.com/in/leonardo-correa01/)
+- GitHub: https://github.com/correatech01
+- LinkedIn: https://www.linkedin.com/in/leonardo-correa01/
 
 ---
 
-Projeto desenvolvido para fins educacionais e evolução profissional.
+Projeto acadêmico desenvolvido para aprimoramento de conhecimentos em desenvolvimento web.
